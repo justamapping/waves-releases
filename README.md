@@ -15,7 +15,9 @@ Waves shows live audio waves in your menu bar while anything is playing, and set
 ## Install
 
 ```sh
-brew install justamapping/tap/waves
+brew tap justamapping/tap
+brew trust --cask justamapping/tap/waves
+brew install --cask justamapping/tap/waves
 ```
 
 Or download `Waves-<version>.zip` from [Releases](https://github.com/justamapping/waves-releases/releases/latest), unzip it, and move `Waves.app` to Applications.
